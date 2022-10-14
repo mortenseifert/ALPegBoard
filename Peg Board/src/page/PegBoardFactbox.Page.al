@@ -17,40 +17,11 @@ page 50601 "Peg Board Factbox"
                     IsControlReady := true;
                 end;
             }
-            field(Line1; BoardLine[1])
-            {
-                ShowCaption = false;
-            }
-            field(Line2; BoardLine[2])
-            {
-                ShowCaption = false;
-            }
-            field(Line3; BoardLine[3])
-            {
-                ShowCaption = false;
-            }
-            field(Line4; BoardLine[4])
-            {
-                ShowCaption = false;
-            }
-            field(Line5; BoardLine[5])
-            {
-                ShowCaption = false;
-            }
-            field(Line6; BoardLine[6])
-            {
-                ShowCaption = false;
-            }
-            field(Line7; BoardLine[7])
-            {
-                ShowCaption = false;
-            }
         }
     }
 
     trigger OnAfterGetRecord()
     begin
-        // Prettify(Rec.Board);
         if IsControlReady then
             RenderHTML();
 
@@ -81,6 +52,5 @@ page 50601 "Peg Board Factbox"
     end;
 
     var
-        BoardLine: array[7] of Text;
         IsControlReady: Boolean;
 }
