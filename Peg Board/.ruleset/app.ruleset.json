@@ -1,0 +1,36 @@
+{
+    "name": "App Rule Set",
+    "description": "Rule Set for this App",
+    "rules": [
+        {
+            "id": "AS0016",
+            "action": "Hidden",
+            "justification": "DataClassification property ToBeClassified should be kept hidden."
+        },
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "Ignore variable type in name"
+        },
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "ToolTips are not essential for this application."
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "Rule is bugged."
+        },
+        {
+            "id": "AW0006",
+            "action": "Hidden",
+            "justification": "Not all objects need to be searchable."
+        },
+        {
+            "id": "AL0424",
+            "action": "None",
+            "justification": "Handle translations later."
+        }
+    ]
+}

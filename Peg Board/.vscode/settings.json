@@ -1,0 +1,24 @@
+{
+    "al.browser": "Edge",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}",
+        "${analyzerFolder}BusinessCentral.LinterCop.dll"
+    ],
+    "al.ruleSetPath": "./.ruleset/app.ruleset.json",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "alOutline.codeActionsOnSave": [
+        "FormatDocument",
+        "SortVariables"
+    ],
+    "cSpell.words": [
+        "controladdin",
+        "Morten",
+        "Seifert"
+    ]
+}
