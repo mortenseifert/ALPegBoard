@@ -1,0 +1,31 @@
+{
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "name":  "Your own server",
+                               "request":  "launch",
+                               "type":  "al",
+                               "environmentType":  "OnPrem",
+                               "server":  "http://pegboard",
+                               "serverInstance":  "BC",
+                               "authentication":  "UserPassword",
+                               "startupObjectId":  22,
+                               "startupObjectType":  "Page",
+                               "breakOnError":  "All",
+                               "launchBrowser":  true,
+                               "enableLongRunningSqlStatements":  true,
+                               "enableSqlInformationDebugger":  true,
+                               "tenant":  "default"
+                           },
+                           {
+                               "type":  "al",
+                               "request":  "launch",
+                               "name":  "Local Sandbox (pegboard)",
+                               "server":  "http://pegboard",
+                               "serverInstance":  "BC",
+                               "port":  7049,
+                               "tenant":  "default",
+                               "authentication":  "UserPassword"
+                           }
+                       ]
+}
