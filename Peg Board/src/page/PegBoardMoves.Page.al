@@ -15,19 +15,15 @@ page 50603 "Peg Board Moves"
             {
                 field("Game No."; Rec."Game No.")
                 {
-                    ApplicationArea = All;
                 }
                 field(Move; Rec.Move)
                 {
-                    ApplicationArea = All;
                 }
                 field(Moves; Rec.Moves)
                 {
-                    ApplicationArea = All;
                 }
                 field("Moves In Queue"; Rec."Moves In Queue")
                 {
-                    ApplicationArea = All;
                 }
             }
         }

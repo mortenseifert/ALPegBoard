@@ -3,6 +3,7 @@ page 50601 "Peg Board Factbox"
     Caption = 'Board';
     PageType = ListPart;
     SourceTable = "Peg Board";
+    ApplicationArea = All;
 
     layout
     {
@@ -10,8 +11,6 @@ page 50601 "Peg Board Factbox"
         {
             usercontrol(HTML; HTML)
             {
-                ApplicationArea = All;
-
                 trigger ControlReady()
                 begin
                     RenderHTML();
@@ -20,37 +19,30 @@ page 50601 "Peg Board Factbox"
             }
             field(Line1; BoardLine[1])
             {
-                ApplicationArea = All;
                 ShowCaption = false;
             }
             field(Line2; BoardLine[2])
             {
-                ApplicationArea = All;
                 ShowCaption = false;
             }
             field(Line3; BoardLine[3])
             {
-                ApplicationArea = All;
                 ShowCaption = false;
             }
             field(Line4; BoardLine[4])
             {
-                ApplicationArea = All;
                 ShowCaption = false;
             }
             field(Line5; BoardLine[5])
             {
-                ApplicationArea = All;
                 ShowCaption = false;
             }
             field(Line6; BoardLine[6])
             {
-                ApplicationArea = All;
                 ShowCaption = false;
             }
             field(Line7; BoardLine[7])
             {
-                ApplicationArea = All;
                 ShowCaption = false;
             }
         }

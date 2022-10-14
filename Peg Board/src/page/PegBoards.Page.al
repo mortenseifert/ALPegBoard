@@ -15,51 +15,39 @@ page 50600 "Peg Boards"
             {
                 field("Entry No."; Rec."Entry No.")
                 {
-                    ApplicationArea = All;
                 }
                 field("Parent Entry No."; Rec."Parent Entry No.")
                 {
-                    ApplicationArea = all;
                 }
                 field("Game No."; Rec."Game No.")
                 {
-                    ApplicationArea = All;
                 }
                 field(Move; Rec.Move)
                 {
-                    ApplicationArea = All;
                 }
                 field(X; Rec.X)
                 {
-                    ApplicationArea = All;
                 }
                 field(Y; Rec.Y)
                 {
-                    ApplicationArea = All;
                 }
                 field(Direction; Rec.Direction)
                 {
-                    ApplicationArea = All;
                 }
                 field("In Queue"; Rec."In Queue")
                 {
-                    ApplicationArea = All;
                 }
                 field("Dead End"; Rec."Dead End")
                 {
-                    ApplicationArea = All;
                 }
                 field(Duplicate; Rec.Duplicate)
                 {
-                    ApplicationArea = All;
                 }
                 field(Signature; Rec."Big Signature")
                 {
-                    ApplicationArea = All;
                 }
                 field(Solution; Rec.Solution)
                 {
-                    ApplicationArea = All;
                 }
             }
         }
@@ -67,7 +55,6 @@ page 50600 "Peg Boards"
         {
             part(PegBoardFactbox; "Peg Board Factbox")
             {
-                ApplicationArea = All;
                 SubPageLink = "Entry No." = field("Entry No.");
             }
         }
@@ -80,7 +67,6 @@ page 50600 "Peg Boards"
             action(NewGame)
             {
                 Caption = 'New Game';
-                ApplicationArea = All;
                 Image = New;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -104,7 +90,6 @@ page 50600 "Peg Boards"
             action(NextMove)
             {
                 Caption = 'Next move';
-                ApplicationArea = All;
                 Image = MovementWorksheet;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -116,7 +101,6 @@ page 50600 "Peg Boards"
             action(BatchMove)
             {
                 Caption = 'Batch next move';
-                ApplicationArea = All;
                 Image = ExecuteBatch;
                 Promoted = true;
                 PromotedCategory = Process;
