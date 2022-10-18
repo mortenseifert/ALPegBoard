@@ -5,6 +5,9 @@
                     },
                     {
                         "path":  "Peg Board"
+                    },
+                    {
+                        "path":  "Peg Board Test"
                     }
                 ],
     "settings":  {
