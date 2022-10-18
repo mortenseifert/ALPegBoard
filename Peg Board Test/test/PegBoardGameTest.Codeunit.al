@@ -1,12 +1,12 @@
-codeunit 50701 "Peg Board Game Test"
+codeunit 50700 "Peg Board Game Test"
 {
     Subtype = Test;
 
     [Test]
     procedure NewGame()
     var
-        PegBoards: TestPage "Peg Boards";
         PegBoard: Record "Peg Board";
+        PegBoards: TestPage "Peg Boards";
         GameNo: Integer;
     begin
         //  [GIVEN] Current last game
@@ -16,6 +16,7 @@ codeunit 50701 "Peg Board Game Test"
             GameNo := 0;
 
         // [WHEN] New game is created
+        PegBoards.OpenView();
         PegBoards.NewGame.Invoke();
 
         // [THEN] New game is one higher
