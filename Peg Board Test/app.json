@@ -1,43 +1,48 @@
 ﻿{
-    "id":  "0ca2b565-5ab9-4b6e-8c99-ba8cd3677c36",
-    "name":  "Peg Board Test",
-    "publisher":  "Morten Seifert",
-    "version":  "1.0.0.0",
-    "brief":  "",
-    "description":  "",
-    "privacyStatement":  "",
-    "EULA":  "",
-    "help":  "",
-    "url":  "",
-    "logo":  "",
-    "dependencies":  [
-                         {
-                             "publisher":  "Microsoft",
-                             "name":  "Library Assert",
-                             "id":  "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
-                             "version":  "19.0.0.0"
-                         },
-                         {
-                             "publisher":  "Microsoft",
-                             "name":  "Any",
-                             "id":  "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
-                             "version":  "19.0.0.0"
-                         }
-                     ],
-    "screenshots":  [
-
-                    ],
-    "platform":  "1.0.0.0",
-    "application":  "19.0.0.0",
-    "idRanges":  [
-                     {
-                         "from":  50700,
-                         "to":  50799
-                     }
-                 ],
-    "resourceExposurePolicy":  {
-                                   "allowDebugging":  true,
-                                   "allowDownloadingSource":  false,
-                                   "includeSourceInSymbolFile":  false
-                               }
+    "id": "0ca2b565-5ab9-4b6e-8c99-ba8cd3677c36",
+    "name": "Peg Board Test",
+    "publisher": "Morten Seifert",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "publisher": "Microsoft",
+            "name": "Library Assert",
+            "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+            "version": "21.0.0.0"
+        },
+        {
+            "publisher": "Microsoft",
+            "name": "Any",
+            "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+            "version": "21.0.0.0"
+        },
+        {
+            "publisher": "Morten Seifert",
+            "name": "Peg Board",
+            "id": "f719e40e-19c7-4987-a620-f4a3ef5b26bb",
+            "version": "1.0.0.0"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "21.0.0.0",
+    "idRanges": [
+        {
+            "from": 50700,
+            "to": 50799
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "10.0"
 }
