@@ -2,6 +2,7 @@ codeunit 50700 "Peg Board Game Test"
 {
     Subtype = Test;
 
+    [HandlerFunctions('ConfirmHandler')]
     [Test]
     procedure NewGame()
     var
@@ -27,12 +28,7 @@ codeunit 50700 "Peg Board Game Test"
     [ConfirmHandler]
     procedure ConfirmHandler(Question: Text[1024]; var Reply: Boolean);
     begin
-        case Question of
-            'Would you like to create a new game?':
-                Reply := true;
-            else
-                Reply := true;
-        end;
+        Reply := true;
     end;
 
     var
