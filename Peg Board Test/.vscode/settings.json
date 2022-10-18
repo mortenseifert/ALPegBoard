@@ -7,7 +7,6 @@
         "${PerTenantExtensionCop}",
         "${analyzerFolder}BusinessCentral.LinterCop.dll"
     ],
-    "al.ruleSetPath": "./.ruleset/app.ruleset.json",
     "CRS.OnSaveAlFileAction": "Reorganize",
     "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
