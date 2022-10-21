@@ -10,7 +10,9 @@
             "port": 7049,
             "tenant": "default",
             "authentication": "UserPassword",
-            "breakOnError": "ExcludeTry"
+            "breakOnError": "ExcludeTry",
+            "startupObjectType": "Page",
+            "startupObjectId": 130401
         }
     ]
 }
