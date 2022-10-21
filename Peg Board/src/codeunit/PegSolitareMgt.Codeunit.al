@@ -24,7 +24,7 @@ codeunit 50600 "Peg Solitare Mgt."
         end;
     end;
 
-    procedure MakeMove()
+    local procedure MakeMove()
     var
         NewMoveCreated: Boolean;
         x: Integer;
@@ -108,13 +108,13 @@ codeunit 50600 "Peg Solitare Mgt."
         exit(true);
     end;
 
-    local procedure MovePeg(x: Integer; y: Integer; Direction: enum "Peg Direction")
+    local procedure MovePeg(x: Integer; y: Integer; Direction: Enum "Peg Direction")
     begin
         NewPegBoard := PegBoard;
         NewPegBoard."Parent Entry No." := PegBoard."Entry No.";
         NewPegBoard."Move" := PegBoard.Move + 1;
         NewPegBoard."Entry No." := 0;
-        NewPegBoard.x := x;
+        NewPegBoard.X := x;
         NewPegBoard.Y := y;
         NewPegBoard.Direction := Direction;
         RemovePeg(x, y);
@@ -157,7 +157,7 @@ codeunit 50600 "Peg Solitare Mgt."
         Replace(x, y, EmptyTok);
     end;
 
-    local procedure SetPeg(X: Integer; y: Integer)
+    local procedure SetPeg(x: Integer; y: Integer)
     begin
         Replace(x, y, PegTok);
     end;
@@ -214,9 +214,9 @@ codeunit 50600 "Peg Solitare Mgt."
         exit(PegBoardSeenBig.Insert())
     end;
 
-    procedure InitBoard(NewPegBoard: Record "Peg Board")
+    procedure InitBoard(InitPegBoard: Record "Peg Board")
     begin
-        PegBoard := NewPegBoard;
+        PegBoard := InitPegBoard;
     end;
 
     procedure InitBoard()

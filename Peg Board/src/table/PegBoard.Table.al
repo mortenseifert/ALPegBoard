@@ -55,7 +55,7 @@ table 50600 "Peg Board"
         field(13; Signature; Integer)
         {
             Caption = 'Signature';
-            ObsoleteState = Pending;
+            ObsoleteState = Removed;
             ObsoleteReason = 'Changed to BigInteger. Use "Big Signature"';
         }
         field(14; "Duplicate"; Boolean)
