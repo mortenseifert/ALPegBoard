@@ -6,7 +6,7 @@ codeunit 50700 "Peg Board Game Test"
     procedure NewGame()
     var
         PegBoard: Record "Peg Board";
-        PegBoards: TestPage "Peg Boards";
+        PegSolitareMgt: Codeunit "Peg Solitare Mgt.";
         GameNo: Integer;
     begin
         //  [GIVEN] Current last game
@@ -16,8 +16,7 @@ codeunit 50700 "Peg Board Game Test"
             GameNo := 0;
 
         // [WHEN] New game is created
-        PegBoards.OpenView();
-        PegBoards.NewGame.Invoke();
+        PegSolitareMgt.InitBoard();
 
         // [THEN] New game is one higher
         PegBoard.FindLast();
