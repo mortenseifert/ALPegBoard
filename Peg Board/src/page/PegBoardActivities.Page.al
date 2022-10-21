@@ -1,5 +1,6 @@
 page 50602 "Peg Board Activities"
 {
+    Caption = 'Peg Board Activities';
     PageType = CardPart;
     SourceTable = "Peg Board Cue";
     ApplicationArea = All;
@@ -33,6 +34,7 @@ page 50602 "Peg Board Activities"
                 }
                 field(Status; Rec."Job Queue Status")
                 {
+                    
                 }
             }
         }

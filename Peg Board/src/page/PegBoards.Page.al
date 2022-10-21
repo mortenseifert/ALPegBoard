@@ -1,6 +1,7 @@
 page 50600 "Peg Boards"
 {
     Caption = 'Peg Boards';
+    AdditionalSearchTerms = 'Peg Solitare';
     PageType = List;
     SourceTable = "Peg Board";
     InsertAllowed = false;
@@ -76,9 +77,10 @@ page 50600 "Peg Boards"
                 trigger OnAction()
                 var
                     PegSolitareMgt: Codeunit "Peg Solitare Mgt.";
+                    ConfirmManagement: Codeunit "Confirm Management";
                     NewGameQst: Label 'Would you like to create a new game?';
                 begin
-                    if not Confirm(NewGameQst, false) then
+                    if not ConfirmManagement.GetResponse(NewGameQst, false) then
                         exit;
 
                     PegSolitareMgt.InitBoard();
