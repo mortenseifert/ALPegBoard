@@ -44,12 +44,13 @@ codeunit 50600 "Peg Solitare Mgt."
 
     local procedure MovePeg(x: Integer; y: Integer) NewMoveCreated: Boolean
     begin
-        if HasPeg(x, y) then begin
-            NewMoveCreated := NewMoveCreated or TryMoveUp(x, y);
-            NewMoveCreated := NewMoveCreated or TryMoveDown(x, y);
-            NewMoveCreated := NewMoveCreated or TryMoveLeft(x, y);
-            NewMoveCreated := NewMoveCreated or TryMoveRight(x, y);
-        end;
+        if not HasPeg(x, y) then
+            exit;
+        
+        NewMoveCreated := NewMoveCreated or TryMoveUp(x, y);
+        NewMoveCreated := NewMoveCreated or TryMoveDown(x, y);
+        NewMoveCreated := NewMoveCreated or TryMoveLeft(x, y);
+        NewMoveCreated := NewMoveCreated or TryMoveRight(x, y);
     end;
 
     local procedure TryMoveUp(x: Integer; y: Integer): Boolean
