@@ -21,7 +21,6 @@ codeunit 50601 "Peg Solitare Job"
         if not Evaluate(Limit, ParameterString.Substring(2)) then
             Limit := 1000;
         PegBoard.SetRange("In Queue", true);
-        PegBoard.SetRange(Duplicate, false);
         PegBoard.SetRange("Game No.", PegBoard.GetLastGameNo());
 
         // Reverse        
