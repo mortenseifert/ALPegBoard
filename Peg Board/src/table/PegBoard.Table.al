@@ -61,6 +61,8 @@ table 50600 "Peg Board"
         field(14; "Duplicate"; Boolean)
         {
             Caption = 'Duplicate';
+            ObsoleteState = Removed;
+            ObsoleteReason = 'Unused';
         }
         field(15; "Big Signature"; BigInteger)
         {

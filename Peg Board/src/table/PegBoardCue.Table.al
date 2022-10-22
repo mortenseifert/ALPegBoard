@@ -36,6 +36,8 @@ table 50603 "Peg Board Cue"
             FieldClass = FlowField;
             CalcFormula = count("Peg Board" where("Game No." = field("Game No. Filter"), Duplicate = const(true)));
             Editable = false;
+            ObsoleteState = Removed;
+            ObsoleteReason = 'Unused';
         }
         field(6; "Solutions"; Integer)
         {

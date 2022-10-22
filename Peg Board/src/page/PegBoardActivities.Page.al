@@ -24,17 +24,12 @@ page 50602 "Peg Board Activities"
                 {
                     Image = Funnel;
                 }
-                field(Duplicates; Rec.Duplicates)
-                {
-                    Image = Diagnostic;
-                }
                 field(Solutions; Rec.Solutions)
                 {
                     Image = Heart;
                 }
                 field(Status; Rec."Job Queue Status")
                 {
-                    
                 }
             }
         }

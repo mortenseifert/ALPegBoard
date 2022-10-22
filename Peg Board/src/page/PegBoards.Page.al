@@ -41,12 +41,6 @@ page 50600 "Peg Boards"
                 field("Dead End"; Rec."Dead End")
                 {
                 }
-                field(Duplicate; Rec.Duplicate)
-                {
-                }
-                field(Signature; Rec."Big Signature")
-                {
-                }
                 field(Solution; Rec.Solution)
                 {
                 }

@@ -46,7 +46,7 @@ codeunit 50600 "Peg Solitare Mgt."
     begin
         if not HasPeg(x, y) then
             exit;
-        
+
         NewMoveCreated := NewMoveCreated or TryMoveUp(x, y);
         NewMoveCreated := NewMoveCreated or TryMoveDown(x, y);
         NewMoveCreated := NewMoveCreated or TryMoveLeft(x, y);
@@ -144,12 +144,7 @@ codeunit 50600 "Peg Solitare Mgt."
         NewPegBoard."Big Signature" := CalcSignature(NewPegBoard.Board);
         if NewPegBoardIsUnique() then begin
             NewPegBoard."In Queue" := true;
-            NewPegBoard.Duplicate := false;
             NewPegBoard.Insert();
-        end else begin
-            NewPegBoard."In Queue" := false;
-            NewPegBoard.Duplicate := true;
-            //NewPegBoard.Insert();
         end;
     end;
 
