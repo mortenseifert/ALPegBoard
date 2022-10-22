@@ -1,10 +1,11 @@
-permissionset 50600 "PEGBOARD"
+permissionset 50600 "Peg Board"
 {
     Access = Internal;
     Assignable = true;
     Caption = 'Peg Board', Locked = true;
 
     Permissions =
+         codeunit "Peg Board Solve" = X,
          codeunit "Peg Solitare Job" = X,
          codeunit "Peg Solitare Mgt." = X,
          page "Peg Board Activities" = X,

@@ -63,13 +63,10 @@ page 50600 "Peg Boards"
             {
                 Caption = 'New Game';
                 Image = New;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
-                PromotedOnly = true;
 
                 trigger OnAction()
                 var
+                    PegBoard: Record "Peg Board";
                     PegSolitareMgt: Codeunit "Peg Solitare Mgt.";
                     ConfirmManagement: Codeunit "Confirm Management";
                     NewGameQst: Label 'Would you like to create a new game?';
@@ -78,6 +75,8 @@ page 50600 "Peg Boards"
                         exit;
 
                     PegSolitareMgt.InitBoard();
+                    PegBoard.FindLast();
+                    Rec.SetFilter("Game No.", '=%1', PegBoard."Game No.");
                     CurrPage.Update();
 
                     PegSolitareMgt.CreateJob();
@@ -87,10 +86,6 @@ page 50600 "Peg Boards"
             {
                 Caption = 'Next move';
                 Image = MovementWorksheet;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
-                PromotedOnly = false;
                 RunObject = codeunit "Peg Solitare Mgt.";
                 RunPageOnRec = true;
             }
@@ -98,10 +93,6 @@ page 50600 "Peg Boards"
             {
                 Caption = 'Batch next move';
                 Image = ExecuteBatch;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
-                PromotedOnly = false;
 
                 trigger OnAction()
                 var
@@ -112,15 +103,115 @@ page 50600 "Peg Boards"
                     Codeunit.Run(Codeunit::"Peg Solitare Job", JobQueueEntry);
                 end;
             }
+            action(SolveOne)
+            {
+                Caption = 'Solve 1';
+                ToolTip = 'Create new game and solve buttom up';
+                Image = NewSum;
+
+                trigger OnAction()
+                var
+                    PegBoard: Record "Peg Board";
+                    PegBoardSolve: Codeunit "Peg Board Solve";
+                begin
+                    PegBoardSolve.Solve1();
+
+                    PegBoard.FindLast();
+                    Rec.Reset();
+                    Rec.SetRange("Game No.", PegBoard."Game No.");
+                    Rec.SetRange(Solution, true);
+                    Rec.SetView('Sorting(Move) Order(Ascending)');
+                end;
+            }
+            action(SolveTwo)
+            {
+                Caption = 'Solve 2';
+                ToolTip = 'Create new game and solve top down';
+                Image = NewSum;
+
+                trigger OnAction()
+                var
+                    PegBoard: Record "Peg Board";
+                    PegBoardSolve: Codeunit "Peg Board Solve";
+                begin
+                    PegBoardSolve.Solve2();
+
+                    PegBoard.FindLast();
+                    Rec.Reset();
+                    Rec.SetRange("Game No.", PegBoard."Game No.");
+                    Rec.SetRange(Solution, true);
+                    Rec.SetView('Sorting(Move) Order(Ascending)');
+                end;
+            }
+            action(SolveThree)
+            {
+                Caption = 'Solve 3';
+                ToolTip = 'Create new game and solve top down + buttom up';
+                Image = NewSum;
+
+                trigger OnAction()
+                var
+                    PegBoard: Record "Peg Board";
+                    PegBoardSolve: Codeunit "Peg Board Solve";
+                begin
+                    PegBoardSolve.Solve3();
+
+                    PegBoard.FindLast();
+                    Rec.Reset();
+                    Rec.SetRange("Game No.", PegBoard."Game No.");
+                    Rec.SetRange(Solution, true);
+                    Rec.SetView('Sorting(Move) Order(Ascending)');
+                end;
+            }
+        }
+        area(Promoted)
+        {
+            group(Category_Process)
+            {
+                Caption = 'Process';
+                ShowAs = SplitButton;
+
+                actionref(NewGame_Promoted; NewGame)
+                {
+                }
+                actionref(NextMove_Promoted; NextMove)
+                {
+                }
+                actionref(BatchMove_Promoted; BatchMove)
+                {
+                }
+            }
+            group(Category_Solve)
+            {
+                Caption = 'Solve';
+                ShowAs = SplitButton;
+
+                actionref(SolveOne_Promoted; SolveOne)
+                {
+                }
+                actionref(SolveTwo_Promoted; SolveTwo)
+                {
+                }
+                actionref(SolveThree_Promoted; SolveThree)
+                {
+                }
+            }
         }
     }
 
     views
     {
-        view(LatestGame)
+        view(ShowSolution)
         {
-            Caption = 'Latest';
-            Filters = where("Game No." = const(6), "In Queue" = const(true));
+            Caption = 'Solution';
+            Filters = where(Solution = const(true));
+            OrderBy = ascending(Move);
+            SharedLayout = true;
+        }
+        view(ShowQueue)
+        {
+            Caption = 'In Queue';
+            Filters = where("In Queue" = const(true));
             OrderBy = descending(Move);
             SharedLayout = true;
         }
