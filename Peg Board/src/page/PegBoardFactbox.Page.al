@@ -36,7 +36,7 @@ page 50601 "Peg Board Factbox"
         for y := 1 to 7 do begin
             HTMLBigText.AddText('<tr>');
             for x := 1 to 7 do begin
-                HTMLBigText.AddText('<td style="text-align: center; vertical-align: middle;">');
+                HTMLBigText.AddText('<td>');
                 case CopyStr(Rec.Board, ((y - 1) * 7) + x, 1) of
                     '*':
                         HTMLBigText.AddText('◉');
