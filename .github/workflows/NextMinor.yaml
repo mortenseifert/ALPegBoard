@@ -2,6 +2,8 @@
 
 on:
   workflow_dispatch:
+  schedule: 
+    - cron: "0 0 * * 3" # Wednesday every week
 
 permissions:
   contents: read
