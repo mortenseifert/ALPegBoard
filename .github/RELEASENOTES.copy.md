@@ -1,11 +1,104 @@
+## v3.2
+
+### Issues
+
+Issue 542 Deploy Workflow fails
+Issue 558 CI/CD attempts to deploy from feature branch
+Issue 559 Changelog includes wrong commits
+Publish to AppSource fails if publisher name or app name contains national or special characters
+Issue 598 Cleanup during flush if build pipeline doesn't cleanup properly
+Issue 608 When creating a release, throw error if no new artifacts have been added
+Issue 528 Give better error messages when uploading to storage accounts
+Create Online Development environment workflow failed in AppSource template unless AppSourceCopMandatoryAffixes is defined in repository settings file
+Create Online Development environment workflow didn't have a project parameter and only worked for single project repositories
+Create Online Development environment workflow didn't work if runs-on was set to Linux
+Special characters are not supported in RepoName, Project names or other settings - Use UTF8 encoding to handle special characters in GITHUB_OUTPUT and GITHUB_ENV
+
+### Issue 555
+AL-Go contains several workflows, which create a Pull Request or pushes code directly.
+All (except Update AL-Go System Files) earlier used the GITHUB_TOKEN to create the PR or commit.
+The problem using GITHUB_TOKEN is that is doesn't trigger a pull request build or a commit build.
+This is by design: https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#triggering-a-workflow-from-a-workflow
+Now, you can set the checkbox called Use GhTokenWorkflow to allowing you to use the GhTokenWorkflow instead of the GITHUB_TOKEN - making sure that workflows are triggered
+
+### New Settings
+- `keyVaultCodesignCertificateName`:  With this setting you can delegate the codesigning to an Azure Key Vault. This can be useful if your certificate has to be stored in a Hardware Security Module
+- `PullRequestTrigger`:  With this setting you can set which trigger to use for Pull Request Builds. By default AL-Go will use pull_request_target.
+
+### New Actions
+- `DownloadProjectDependencies`: Downloads the dependency apps for a given project and build mode.
+
+### Settings and Secrets in AL-Go for GitHub
+In earlier versions of AL-Go for GitHub, all settings were available as individual environment variables to scripts and overrides, this is no longer the case.
+Settings were also available as one compressed JSON structure in env:Settings, this is still the case.
+Settings can no longer contain line breaks. It might have been possible to use line breaks earlier, but it would likely have unwanted consequences.
+Use `$settings = $ENV:Settings | ConvertFrom-Json` to get all settings in PowerShell.
+
+In earlier versions of AL-Go for GitHub, all secrets requested by AL-Go for GitHub were available as individual environment variables to scripts and overrides, this is no longer the case.
+As described in bug 647, all secrets available to the workflow were also available in env:_Secrets, this is no longer the case.
+All requested secrets were also available (base64 encoded) as one compressed JSON structure in env:Secrets, this is still the case.
+Use `$secrets = $ENV:Secrets | ConvertFrom-Json` to get all requested secrets in PowerShell.
+You cannot get to any secrets that weren't requested by AL-Go for GitHub.
+
+## v3.1
+
+### Issues
+
+Issue #446 Wrong NewLine character in Release Notes
+Issue #453 DeliverToStorage - override fails reading secrets
+Issue #434 Use gh auth token to get authentication token instead of gh auth status
+Issue #501 The Create New App action will now use 22.0.0.0 as default application reference and include NoImplicitwith feature.
+
+
+### New behavior
+
+The following workflows:
+
+- Create New App
+- Create New Test App
+- Create New Performance Test App
+- Increment Version Number
+- Add Existing App
+- Create Online Development Environment
+
+All these actions now uses the selected branch in the **Run workflow** dialog as the target for the Pull Request or Direct COMMIT.
+
+### New Settings
+
+- `UseCompilerFolder`: Setting useCompilerFolder to true causes your pipelines to use containerless compiling. Unless you also set `doNotPublishApps` to true, setting useCompilerFolder to true won't give you any performance advantage, since AL-Go for GitHub will still need to create a container in order to publish and test the apps. In the future, publishing and testing will be split from building and there will be other options for getting an instance of Business Central for publishing and testing. 
+- `vsixFile`: vsixFile should be a direct download URL to the version of the AL Language extension you want to use for building the project or repo. By default, AL-Go will use the AL Language extension that comes with the Business Central Artifacts.
+
+### New Workflows
+
+- **_BuildALGoProject** is a reusable workflow that unites the steps for building an AL-Go projects. It has been reused in the following workflows: _CI/CD_, _Pull Request Build_, _NextMinor_, _NextMajor_ and _Current_.
+The workflow appears under the _Actions_ tab in GitHub, but it is not actionable in any way.  
+
+### New Actions
+
+- **DetermineArtifactUrl** is used to determine which artifacts to use for building a project in CI/CD, PullRequestHandler, Current, NextMinor and NextMajor workflows.
+
+### License File
+
+With the changes to the CRONUS license in Business Central version 22, that license can in most cases be used as a developer license for AppSource Apps and it is no longer mandatory to specify a license file in AppSource App repositories.
+Obviously, if you build and test your app for Business Central versions prior to 21, it will fail if you don't specify a licenseFileUrl secret.
+
 ## v3.0
 
 ### **NOTE:** When upgrading to this version
 When upgrading to this version form earlier versions of AL-Go for GitHub, you will need to run the _Update AL-Go System Files_ workflow twice if you have the `useProjectDependencies` setting set to _true_.
 
+### Publish to unknown environment
+You can now run the **Publish To Environment** workflow without creating the environment in GitHub or settings up-front, just by specifying the name of a single environment in the Environment Name when running the workflow.
+Subsequently, if an AuthContext secret hasn't been created for this environment, the Device Code flow authentication will be initiated from the Publish To Environment workflow and you can publish to the new environment without ever creating a secret.
+Open Workflow details to get the device Code for authentication in the job summary for the initialize job.
+
+### Create Online Dev. Environment
+When running the **Create Online Dev. Environment** workflow without having the _adminCenterApiCredentials_ secret created, the workflow will intiate the deviceCode flow and allow you to authenticate to the Business Central Admin Center.
+Open Workflow details to get the device Code for authentication in the job summary for the initialize job.
+
 ### Issues
 - Issue #391 Create release action - CreateReleaseBranch error
-- Issue #434 Building local DevEnv, downloading dependencies: Authentication fails when using "gh auth status"
+- Issue 434 Building local DevEnv, downloading dependencies: Authentication fails when using "gh auth status"
 
 ### Changes to Pull Request Process
 In v2.4 and earlier, the PullRequestHandler would trigger the CI/CD workflow to run the PR build.
