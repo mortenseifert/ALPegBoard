@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Peg Board">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2011469700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Solitare</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 1659093892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Big Signature - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 745999102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Board</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Board - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 713523213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dead End</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Dead End - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 39585143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Direction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 2592582051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Game No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Game No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 3483398458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field In Queue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 2458548723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Move - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 1068272785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Parent Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 1857133763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solution</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Solution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 2702407524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field X - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2011469700 - Field 2064710907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Y</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board - Field Y - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Board Cue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 145395195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Game No. Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field Game No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 3483398458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field In Queue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 3423211158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field Job Queue Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 3423211158 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ready,In Process,Error,On Hold,Finished,On Hold with Inactivity Timeout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field Job Queue Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 483568391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Move</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field Max Move - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 365178462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Moves</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field Moves - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 259997045 - Field 1861647630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solutions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Cue - Field Solutions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 669480550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Board Moves</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Moves - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 669480550 - Field 2592582051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Game No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Moves - Field Game No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 669480550 - Field 2458548723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Moves - Field Move - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 669480550 - Field 365178462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Moves</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Moves - Field Moves - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 669480550 - Field 501645288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Moves In Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Moves - Field Moves In Queue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459310391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Solitare</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Seen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459310391 - Field 2592582051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Game No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Seen - Field Game No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459310391 - Field 3765202864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Peg Board Seen - Field Signature - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4230216645 - Method 1416874150 - NamedType 1248124158" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solved in %1, %2 tries</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Duration, %2 Tries</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Board Solve - Method Solve1 - NamedType DoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4230216645 - Method 1416874150 - NamedType 1629809744" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Method 1 : FindFirst()</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Board Solve - Method Solve1 - NamedType Method1Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4230216645 - Method 3798751595 - NamedType 1248124158" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solved in %1, %2 tries</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Duration, %2 Tries</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Board Solve - Method Solve2 - NamedType DoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4230216645 - Method 3798751595 - NamedType 2730384113" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Method 2 : findLast()</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Board Solve - Method Solve2 - NamedType Method2Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4230216645 - Method 141480916 - NamedType 1248124158" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solved in %1, %2 tries</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Duration, %2 Tries</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Board Solve - Method Solve3 - NamedType DoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4230216645 - Method 141480916 - NamedType 1182955474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Method 3 : Find('+'); Next(-1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Board Solve - Method Solve3 - NamedType Method3Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2857213954 - Method 2421935703 - NamedType 4096571128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Board %1 of %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Board No., %2 = Total number of boards.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Solitare Job - Method UpdateStatus - NamedType BoardStatusLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3185580109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Board Activitiess</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Board Activities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 371754359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Board</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Board Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 669480550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Board Moves</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Board Moves - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Boards</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Peg Solitare</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 4130783215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch next move</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action BatchMove - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 550311846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Game</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action NewGame - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 550311846 - Method 1377591017 - NamedType 3506768656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Would you like to create a new game?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action NewGame - Method OnAction - NamedType NewGameQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 1529902042 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next move</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action NextMove - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 1018133625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create new game and solve buttom up</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveOne - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 1018133625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solve 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveOne - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 3830256727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create new game and solve top down + buttom up</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveThree - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 3830256727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solve 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveThree - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 1413140041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create new game and solve top down</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveTwo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 1413140041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solve 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveTwo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action Category_Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - Action 3098222616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solve</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action Category_Solve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - View 916610102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - View ShowQueue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3508113381 - View 2702409614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solution</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - View ShowSolution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 290182663 - Control 4143149565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Peg Board Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Peg Board Business Manager - Control PegBoardActivities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 731375601 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Peg Direction - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 731375601 - EnumValue 2274990174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Down</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Peg Direction - EnumValue Down - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 731375601 - EnumValue 3206779141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Peg Direction - EnumValue Left - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 731375601 - EnumValue 1644645076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Peg Direction - EnumValue Right - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 731375601 - EnumValue 322119519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Up</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Peg Direction - EnumValue Up - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
