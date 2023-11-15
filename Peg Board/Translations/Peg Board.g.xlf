@@ -189,7 +189,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Peg Solitare Job - Method UpdateStatus - NamedType BoardStatusLbl</note>
         </trans-unit>
         <trans-unit id="Page 3185580109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Peg Board Activitiess</source>
+          <source>Peg Board Activitieses</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Peg Board Activities - Property Caption</note>
         </trans-unit>
@@ -234,7 +234,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action NextMove - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3508113381 - Action 1018133625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create new game and solve buttom up</source>
+          <source>Create new game and solve buttom up.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveOne - Property ToolTip</note>
         </trans-unit>
@@ -244,7 +244,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveOne - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3508113381 - Action 3830256727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create new game and solve top down + buttom up</source>
+          <source>Create new game and solve top down + buttom up.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveThree - Property ToolTip</note>
         </trans-unit>
@@ -254,7 +254,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveThree - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3508113381 - Action 1413140041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create new game and solve top down</source>
+          <source>Create new game and solve top down.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Peg Boards - Action SolveTwo - Property ToolTip</note>
         </trans-unit>
