@@ -3,7 +3,5 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "repoVersion": "1.1",
-  "nextMinorSchedule": "0 0 * * 0",
-  "nextMajorSchedule": "0 0 * * 0"
+  "repoVersion": "1.1"
 }
