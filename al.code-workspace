@@ -1,14 +1,17 @@
 {
-    "folders": [
-        {
-            "path": ".AL-Go"
-        },
-        {
-            "path": "Peg Board"
-        },
-        {
-            "path": "Peg Board Test"
-        }
-    ],
-    "settings": {}
+  "folders": [
+    {
+      "path": ".AL-Go"
+    },
+    {
+      "path": "Peg Board"
+    },
+    {
+      "path": "Peg Board Test"
+    },
+    {
+      "path": "Peg Board PerformanceTest"
+    }
+  ],
+  "settings": {}
 }
