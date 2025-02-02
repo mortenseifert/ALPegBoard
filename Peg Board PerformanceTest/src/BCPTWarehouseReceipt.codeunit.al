@@ -9,7 +9,7 @@ using System.Tooling;
 using Microsoft.Warehouse.Document;
 using Microsoft.Warehouse.Activity;
 
-codeunit 149202 "BCPT Warehouse Receipt"
+codeunit 50800 "BCPT Warehouse Receipt"
 {
     SingleInstance = true;
 
