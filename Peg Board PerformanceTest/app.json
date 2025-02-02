@@ -1,0 +1,54 @@
+{
+  "id": "a50f55f4-73d1-4b2f-9647-c51ea68f36aa",
+  "name": "Peg Board PerformanceTest",
+  "publisher": "Morten Sifert",
+  "version": "1.0.0.0",
+  "brief": "Performance Toolkit Samples (US)",
+  "description": "This extension provides tests that simulate business processes, such as creating sales orders, for the Business Central Performance Toolkit. Developers can use these to test for performance regressions during development.",
+  "platform": "25.2.0.0",
+  "application": "25.3.0.0",
+  "runtime": "14.0",
+  "logo": "",
+  "url": "",
+  "EULA": "",
+  "privacyStatement": "",
+  "help": "",
+  "target": "Cloud",
+  "screenshots": [],
+  "dependencies": [
+    {
+      "id": "75f1590f-55c5-4501-ae63-bada5534e852",
+      "publisher": "Microsoft",
+      "name": "Performance Toolkit",
+      "version": "25.3.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+      "name": "Tests-TestLibraries",
+      "version": "25.3.0.0"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50800,
+      "to": 50899
+    }
+  ],
+  "features": [
+    "TranslationFile",
+    "GenerateCaptions"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "source": {
+    "repositoryUrl": "https://github.com/microsoft/BCApps",
+    "commit": "1bdc809bc7b7750a1c4204fda3a8a2987928d866"
+  },
+  "build": {},
+  "internalsVisibleTo": [],
+  "keyVaultUrls": []
+}
