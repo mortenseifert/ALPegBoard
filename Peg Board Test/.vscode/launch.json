@@ -5,14 +5,15 @@
             "type": "al",
             "request": "launch",
             "name": "Local Sandbox (pegboard)",
-            "server": "http://pegboard",
+            "server": "http://pegboard-default",
             "serverInstance": "BC",
             "port": 7049,
             "tenant": "default",
+            "schemaUpdateMode": "Synchronize",
             "authentication": "UserPassword",
             "breakOnError": "ExcludeTry",
             "startupObjectType": "Page",
-            "startupObjectId": 130401
+            "startupObjectId": 130451
         }
     ]
 }

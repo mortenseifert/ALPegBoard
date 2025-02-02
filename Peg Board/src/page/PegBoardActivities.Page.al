@@ -1,6 +1,6 @@
 page 50602 "Peg Board Activities"
 {
-    Caption = 'Peg Board Activitiess';
+    Caption = 'Peg Board Activitieses';
     PageType = CardPart;
     SourceTable = "Peg Board Cue";
     ApplicationArea = All;

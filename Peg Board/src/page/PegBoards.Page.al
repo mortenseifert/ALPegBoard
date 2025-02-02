@@ -106,7 +106,7 @@ page 50600 "Peg Boards"
             action(SolveOne)
             {
                 Caption = 'Solve 1';
-                ToolTip = 'Create new game and solve buttom up';
+                ToolTip = 'Create new game and solve buttom up.';
                 Image = NewSum;
 
                 trigger OnAction()
@@ -126,7 +126,7 @@ page 50600 "Peg Boards"
             action(SolveTwo)
             {
                 Caption = 'Solve 2';
-                ToolTip = 'Create new game and solve top down';
+                ToolTip = 'Create new game and solve top down.';
                 Image = NewSum;
 
                 trigger OnAction()
@@ -146,7 +146,7 @@ page 50600 "Peg Boards"
             action(SolveThree)
             {
                 Caption = 'Solve 3';
-                ToolTip = 'Create new game and solve top down + buttom up';
+                ToolTip = 'Create new game and solve top down + buttom up.';
                 Image = NewSum;
 
                 trigger OnAction()

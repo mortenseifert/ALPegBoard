@@ -1,7 +1,13 @@
 {
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": [],
+  "country": "dk",
+  "appFolders": [
+    "Peg Board"
+  ],
+  "testFolders": [
+    "Peg Board Test"
+  ],
+  "bcptTestFolders": [
+    "Peg Board PerformanceTest"
+  ],
   "repoVersion": "1.1"
 }
