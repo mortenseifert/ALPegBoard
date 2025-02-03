@@ -1,6 +1,7 @@
 codeunit 50700 "Peg Board Game Test"
 {
     Subtype = Test;
+    TestPermissions = Disabled;
 
     [Test]
     procedure NewGame()
