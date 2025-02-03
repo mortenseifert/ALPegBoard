@@ -2,7 +2,7 @@
   "id": "0ca2b565-5ab9-4b6e-8c99-ba8cd3677c36",
   "name": "Peg Board Test",
   "publisher": "Morten Seifert",
-  "version": "1.1.0.0",
+  "version": "1.2.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -27,7 +27,7 @@
       "publisher": "Morten Seifert",
       "name": "Peg Board",
       "id": "f719e40e-19c7-4987-a620-f4a3ef5b26bb",
-      "version": "1.1.0.0"
+      "version": "1.2.0.0"
     }
   ],
   "screenshots": [],
