@@ -10,5 +10,5 @@ controladdin "HTML"
 
     event ControlReady();
 
-    procedure Render(html: Text);
+    procedure Render(html: Text)
 }

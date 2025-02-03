@@ -1,6 +1,7 @@
 codeunit 50701 "Peg Board Solve Test"
 {
     Subtype = Test;
+    TestPermissions = Disabled;
 
     [Test]
     procedure FirstMove()
