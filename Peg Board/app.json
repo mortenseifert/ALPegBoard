@@ -1,32 +1,32 @@
 {
-    "id": "f719e40e-19c7-4987-a620-f4a3ef5b26bb",
-    "name": "Peg Board",
-    "publisher": "Morten Seifert",
-    "version": "1.1.0.0",
-    "brief": "",
-    "description": "",
-    "privacyStatement": "",
-    "EULA": "",
-    "help": "",
-    "url": "",
-    "logo": "",
-    "dependencies": [],
-    "screenshots": [],
-    "platform": "1.0.0.0",
-    "application": "23.0.0.0",
-    "idRanges": [
-        {
-            "from": 50600,
-            "to": 50609
-        }
-    ],
-    "features": [
-        "TranslationFile"
-    ],
-    "resourceExposurePolicy": {
-        "allowDebugging": true,
-        "allowDownloadingSource": false,
-        "includeSourceInSymbolFile": false
-    },
-    "runtime": "12.0"
+  "id": "f719e40e-19c7-4987-a620-f4a3ef5b26bb",
+  "name": "Peg Board",
+  "publisher": "Morten Seifert",
+  "version": "1.2.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50600,
+      "to": 50609
+    }
+  ],
+  "features": [
+    "TranslationFile"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "12.0"
 }
