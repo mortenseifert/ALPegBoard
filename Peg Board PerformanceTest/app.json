@@ -2,7 +2,7 @@
   "id": "a50f55f4-73d1-4b2f-9647-c51ea68f36aa",
   "name": "Peg Board PerformanceTest",
   "publisher": "Morten Sifert",
-  "version": "1.0.0.0",
+  "version": "1.2.0.0",
   "brief": "Performance Toolkit Samples (US)",
   "description": "This extension provides tests that simulate business processes, such as creating sales orders, for the Business Central Performance Toolkit. Developers can use these to test for performance regressions during development.",
   "platform": "25.2.0.0",
