@@ -1,7 +1,6 @@
 {
   "type": "PTE",
+  "artifact": "////latest",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-  "templateSha": "ba4fc723e4c024674baa6a53ef1777402cfbaab0",
-  "nextMinorSchedule": "0 0 * * 0",
-  "nextMajorSchedule": "0 0 * * 0"
+  "templateSha": "a91a50b7fa2a88d8fa0b8eab99a66b9032ac476d"
 }

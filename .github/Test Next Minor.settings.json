@@ -1,5 +1,8 @@
 {
-    "artifact":  "////nextminor/{INSIDERSASTOKEN}",
+    "artifact":  "////nextminor",
     "cacheImageName":  "",
-    "versioningStrategy":  15
+    "versioningStrategy":  15,
+    "workflowSchedule": {
+        "cron": "0 0 * * 0"
+    }
 }
