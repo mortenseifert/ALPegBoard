@@ -1,8 +1,9 @@
 {
-    "artifact":  "////nextminor",
-    "cacheImageName":  "",
-    "versioningStrategy":  15,
-    "workflowSchedule": {
-        "cron": "0 0 * * 0"
-    }
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.2/settings.schema.json",
+  "artifact": "////nextminor",
+  "cacheImageName": "",
+  "versioningStrategy": 15,
+  "workflowSchedule": {
+    "cron": "0 0 * * 0"
+  }
 }
