@@ -1,9 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.3/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.0/.Modules/settings.schema.json",
   "type": "PTE",
   "incrementalBuilds": {
     "mode": "modifiedApps"
   },
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-  "templateSha": "920b9e1a65667be8e6d54cb478fae5f2847aa3ea"
+  "templateSha": "359d32d051a800d7e28c3a0f97a724b16aed403b"
 }
